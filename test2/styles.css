@@ -1,0 +1,24 @@
+html{
+
+	background: url(img/imgFndCenicienta.png) no-repeat 0% 5%,
+	url(img/imgFndBarney.png) no-repeat 30% 5%,
+	url(img/imgFndBen10_2.png) no-repeat 0% 100%,
+	url(img/imgFndCampanita.png) no-repeat 50% 5%,
+	url(img/imgFndDoki.png) no-repeat 40% 95%,
+	url(img/imgFndBen10.png) no-repeat 70% 0%,
+	url(img/imgFndPeterPan.png) no-repeat 100% 10%;
+	height: 100%;
+	width:100%;
+	
+}
+
+body{
+	background: rgba(231, 64, 108, .7);
+	/* font-family: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	line-height: 20px;*/
+	min-height: 100%;
+	margin: 0;
+	/*color: #000;
+	color: rgba(0, 0, 0, .5); */
+}
