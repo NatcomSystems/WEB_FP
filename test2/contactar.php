@@ -1,5 +1,5 @@
 <?php
-$nombres=$_POST['nombres'];
+$nombres=$_POST['name'];
 $telefono=$_POST['telefono'];
 $email=$_POST['email'];
 $comentario=$_POST['comentario'];
@@ -72,12 +72,12 @@ $blanco="Ingrese Datos (*)";
       <div class="masthead">
         <h3 class="text-muted"></h3>
         <ul class="nav nav-justified">
-          <li class="active"><a href="index.html">Inicio</a></li>
-          <li><a href="">Projects</a></li>
+          <li><a href="index.html">Inicio</a></li>
+          <li><a href="galeria.html">Galería</a></li>
           <li><a href="servicios.html">Servicios</a></li>
-          <li><a href="#">Downloads</a></li>
-          <li><a href="#">Sobre Nosotros</a></li>
-          <li><a href="#">Contáctanos</a></li>
+          <li><a href="clientes.html">Clientes</a></li>
+          <li><a href="about.html">Sobre Nosotros</a></li>
+          <li class="active"><a href="contactar.php">Contáctanos</a></li>
         </ul>
       </div>
 	 
@@ -89,29 +89,28 @@ $blanco="Ingrese Datos (*)";
       </div>
 	  <div class="row">
 		<div id="container-form" class="span13 offset1 block contact-page">
-			<h2>Eres una bodega?</h2>
+			<h2>¿Desea contáctarnos?, envíenos un correo que pronto lo atenderemos.</h2>
 			<p>.....</p>
 			<div class="form-container wineries-form clearfix">
-				<h2>Información de la bodega (ninguno de los siguientes campos es obligatorio)</h2>
-				<div class="col1">
+				<h2>Los campos marcados con <a style="color:black;">*</a> son obligatorios</h2>
+				<div class="col1"> 
 					<div class="wrap">
-						<input id="winery_name" name="winery_name" type="text" placeholder="Nombre de la bodega">
-						<input id="winery_website" name="winery_website" type="text" placeholder="Website">
-						<input id="winery_email" name="winery_email" type="text" placeholder="E-mail">
-						<input id="winery_address" name="winery_address" type="text" placeholder="Dirección">	
+						<input id="name" name="name" type="text" placeholder="Nombre / Empresa">
+						<input id="email" name="email" type="text" placeholder="Correo Electrónico">
+						<input id="subject" name="subject" type="text" placeholder="Asunto">
+						<input id="phone" name="phone" type="text" placeholder="Dirección">	
 					</div>
 				</div>
 				<div class="col2">
 					<div class="wrap">
-						<textarea id="winery_comments" name="winery_comments" placeholder="Comentarios"></textarea>
+						<textarea id="message" name="mensaje" placeholder="Mensaje"></textarea>
 					</div>
 				</div>
 			</div>
 		</div>
 		<div class="span13 offset1 block contact-page">
-			<div class="wrap contact-page-buttons clearfix">
-				<button type="submit" class="ease-hover">ENVIAR</button>
-				<a href="#" class="button-orange add-wine ease-hover">INCLUIR VINO +</a>
+			<div>
+				<button type="submit">ENVIAR</button>
 			</div>
 		</div>
 	</div>

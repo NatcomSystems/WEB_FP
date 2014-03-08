@@ -14,6 +14,64 @@ html{
 	width:100%;
 }
 
+@media (max-width: 1200px) and (min-width: 979px) { 
+html{
+	background: url(img/imgFndCenicienta.png) no-repeat -3% 125%,
+	url(img/imgFndBen10-2.png) no-repeat -1% 0%,
+	url(img/imgFndBarney.png) no-repeat 30% 0%,
+	url(img/imgFndCampanita.png) no-repeat 50% 5%,
+	url(img/imgFndDoki.png) no-repeat 40% 128%,
+	url(img/imgFndBen10.png) no-repeat 70% 0%,
+	url(img/imgFndPeterPan.png) no-repeat 100% 40%,
+	url(img/imgFndMickey.png) no-repeat 10% 1%,
+	url(img/imgFndPatric.png) no-repeat 65% 130%,
+	url(img/imgFndBob.png) no-repeat -1% 55%,
+	url(img/imgFndCenicienta.png) no-repeat -3% 550%,
+	url(img/imgFndBen10-2.png) no-repeat -1% 235%,
+	url(img/imgFndBarney.png) no-repeat 30% 245%,
+	url(img/imgFndCampanita.png) no-repeat 100% 365%,
+	url(img/imgFndDoki.png) no-repeat 60% 450%,
+	url(img/imgFndBen10.png) no-repeat 70% 300%,
+	url(img/imgFndPeterPan.png) no-repeat 90% 1540%,
+	url(img/imgFndMickey.png) no-repeat 10% 200%,
+	url(img/imgFndPatric.png) no-repeat 100% 430%,
+	url(img/imgFndBob.png) no-repeat -1% 150%,
+	url(img/textureFnd.png) repeat;
+	height: 100%;
+	width:100%;
+	}
+	
+} 
+
+@media (max-width: 978px) { 
+  html{
+	background: url(img/imgFndCenicienta.png) no-repeat -3% 125%,
+	url(img/imgFndBen10-2.png) no-repeat -1% 0%,
+	url(img/imgFndBarney.png) no-repeat 30% 0%,
+	url(img/imgFndCampanita.png) no-repeat 50% 5%,
+	url(img/imgFndDoki.png) no-repeat 40% 128%,
+	url(img/imgFndBen10.png) no-repeat 70% 0%,
+	url(img/imgFndPeterPan.png) no-repeat 100% 40%,
+	url(img/imgFndMickey.png) no-repeat 10% 1%,
+	url(img/imgFndPatric.png) no-repeat 65% 130%,
+	url(img/imgFndBob.png) no-repeat -1% 55%,
+	url(img/imgFndCenicienta.png) no-repeat -3% 550%,
+	url(img/imgFndBen10-2.png) no-repeat -1% 235%,
+	url(img/imgFndBarney.png) no-repeat 30% 245%,
+	url(img/imgFndCampanita.png) no-repeat 100% 365%,
+	url(img/imgFndDoki.png) no-repeat 60% 450%,
+	url(img/imgFndBen10.png) no-repeat 70% 300%,
+	url(img/imgFndPeterPan.png) no-repeat 90% 1540%,
+	url(img/imgFndMickey.png) no-repeat 10% 200%,
+	url(img/imgFndPatric.png) no-repeat 100% 430%,
+	url(img/imgFndBob.png) no-repeat -1% 150%,
+	url(img/imgFndBob.png) no-repeat -1% 265%,
+	url(img/textureFnd.png) repeat;
+	height: 100%;
+	width:100%;
+	}
+}
+
 .contact-page{overflow:hidden;}
 .contact-page h2{font-size:18px;margin-left:40px;margin-top:30px;}
 .contact-page p{font-size:15px;line-height:24px;margin-left:40px;margin-right:40px;}
@@ -31,6 +89,10 @@ html{
 	-moz-box-shadow:none;
 	-ms-box-shadow:none;
 	-o-box-shadow:none;
+}
+
+.wrap input,textarea{
+	margin : 5px 0 5px 0;
 }
 
 .contact-page select{
